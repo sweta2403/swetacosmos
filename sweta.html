@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .project {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .project h2 {
+    margin-top: 0;
+  }
+  .picheight { 
+   height: 300px;
+  }
+
+  footer {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .footer-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .footer-nav li {
+    margin-right: 20px;
+  }
+  .footer-nav li:last-child {
+    margin-right: 0;
+  }
+  .footer-contact {
+    font-size: 14px;
+  }
+
+  .icon i {
+    font-size: 48px; 
+    color: white;
+  }
+
+  .picheightlogo { 
+    height: 100px;
+    border-radius: 50px;
+   }
+
+   .about-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .about-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .about-content {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  
+.welcome-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 40vh;
+}
+
+#welcome-message {
+  font-size: 36px;
+  color: #dbdfe2;
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <h1>Swetapadma Mohanty</h1>
+    <p>Web Developer | Designer | Singer</p>
+    <img class="picheight" src="sweta.jpg" alt="swetaphoto">
+    <div class="social-icons">
+      <a href="https://youtube.com/@swetapadma7" class="icon"><i class="fab fa-youtube"></i></a>
+      <a href="#" class="icon"><i class="fab fa-instagram" onclick="showAlert()"></i></a>
+      <a href="#" class="icon"><i class="fab fa-whatsapp" onclick="showAlert()"></i></a>
+      <a href="#" class="icon"><i class="fas fa-comments" onclick="showAlert()"></i></a>
+    </div>
+    <div class="welcome-container">
+      <h1 id="welcome-message"></h1>
+    </div>
+  </header>
+  <div class="container1">
+    <div class="about-section">
+      <h2 class="about-heading">About Me</h2>
+      <p class="about-content">
+        Hi, I'm Swetapadma Mohanty, a passionate web developer and designer. With a strong foundation in front-end and back-end technologies, I craft beautiful and functional websites that provide exceptional user experiences.
+        I specialize in Python, HTML, CSS, JavaScript, UI/UX design, etc. I have a keen eye for detail and a deep understanding of design principles, allowing me to create visually appealing and user-friendly interfaces.
+        Whether it's developing responsive websites, optimizing performance, or creating intuitive interfaces, I am dedicated to delivering high-quality results that exceed client expectations. Let's collaborate and bring your ideas to life!
+        i am also a passionate singer and songwriter. Music has been my lifelong passion, and I love connecting with audiences through heartfelt performances and meaningful lyrics.
+        With a versatile vocal range and a deep understanding of various music genres, I have had the privilege of bringing emotions to life through my voice. From soulful ballads to energetic pop tunes, my goal is to evoke emotions and create memorable experiences for listeners.
+        I have performed at all India radio.Thank you for joining me on this musical journey. I look forward to sharing my passion and creating beautiful melodies song that resonate with each and every one of you.
+      </p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="project">
+      <h2>Education</h2>
+      <ul><li>Master in Computer Application</li>
+          <li>Bachelor in  Computer Application</li>
+          <li>+2 in Science</li>
+          <li>Matriculation</li>
+      </ul>
+    </div>
+    <div class="project">
+      <h2>Tech-Skills</h2>
+      <ul>
+        <li>Python</li>
+        <li>Html5</li>
+        <li>Css3</li>
+        <li>Javascript</li>
+        <li>AWS</li>
+        <li>Docker</li>
+        <li>SQL</li>
+        <Li>Django</Li>
+        <li>Flask</li>
+      </ul>
+    </div>
+    <div class="project">
+      <h2>Basic-Skills</h2>
+      <ul>
+        <li>Good Communication</li>
+        <li>Good Leadership</li>
+        <li>Team work</li>
+        <li>Good Listener</li>
+        <li>Singer</li>
+        <li>SocialMedia influencer</li>
+      </ul>
+    </div>
+    <div class="project">
+      <h2>Project Details</h2>
+      <ul>
+        <li>E-commerce website</li>
+        <li>Weather Forecasting website</li>
+        <li>Snowflake website</li>
+        <li>CRM for a Company</li>
+        <li>PRM for a agenecy</li>
+      </ul>
+      <a href="sweta.html" onclick="showAlert()">View Project Details</a>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo"><img class="picheightlogo" src="swetalogo.png" alt="My Logo"></div>
+        <ul class="footer-nav">
+        <div class="footer-contact">
+          <p>Email: Sweta@gmail.com</p>
+          <p>Phone: (123) 456-XXXXX</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function showAlert() {
+      alert("Sorry!!!! Only Owner Of the Page Can View");
+    }
+
+    
+      const welcomeMessage = document.getElementById("welcome-message");
+
+      const messages = ["Hi, there!", "Welcome! to Sweta's Cosmos", "I am glad to see you here!"];
+      let index = 0;
+
+      function changeMessage() {
+        welcomeMessage.textContent = messages[index];
+        index = (index + 1) % messages.length;
+      }
+
+      // Change the welcome message every 3 seconds
+      setInterval(changeMessage, 2000);
+
+  </script>
+</body>
+</html>
